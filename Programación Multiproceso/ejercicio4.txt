@@ -1,0 +1,4 @@
+En total se muestra 4 veces.
+
+Al llegar al primer fork se crea un nuevo proceso (en total tenemos 2 procesos: el padre y el hijo).
+Ambos procesos ejecutan el segundo fork creando cada uno un proceso nuevo (en total 2 + 2 = 4)
