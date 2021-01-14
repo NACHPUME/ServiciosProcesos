@@ -37,7 +37,7 @@ public class Sumador extends Thread {
 			while(linea != null) {
 				
 				// Separamos por espacios
-				System.out.println("Lectura de línea del archivo " + nombreArchivo + ": " + linea);
+				//System.out.println("Lectura de línea del archivo " + nombreArchivo + ": " + linea);
 				// En el array numeros tendremos los números guardados como string
 				String[] numeros = linea.split(" ");
 				
